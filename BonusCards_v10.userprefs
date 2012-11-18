@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="d:\pasha\projects\pashasvn\projects\csharp\android\BonusCards\BonusCards\MainActivity.cs">
+    <Files>
+      <File FileName="BonusCards\AddCardActivity.cs" Line="19" Column="44" />
+      <File FileName="d:\pasha\projects\pashasvn\projects\csharp\android\BonusCards\BonusCards\MainActivity.cs" Line="78" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BonusCards AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>

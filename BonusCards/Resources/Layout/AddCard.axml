@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:weightSum="2.0">
+        <Button
+            android:id="@+id/btnApply"
+            android:text="@string/addcard_Apply"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+        <Button
+            android:text="@string/addcard_Cancel"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:id="@+id/btnCancel"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCardName" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/addcard_ShopName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etShopName" />
+    </LinearLayout>
+    <LinearLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutImagesBox"
+        android:background="#ff303030"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout5"
+            android:weightSum="4.0"
+            android:layout_margin="3px">
+            <Button
+                android:id="@+id/btnAddImage"
+                android:text="@string/addcard_addimage"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:textSize="14px" />
+            <Button
+                android:text="@string/addcard_removeimage"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:id="@+id/btnRemoveImage"
+                android:layout_weight="1.0"
+                android:textSize="14px" />
+            <Button
+                android:text="@string/addcard_enlargeimage"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:id="@+id/btnEnlargeImage"
+                android:layout_weight="1.0"
+                android:textSize="14px" />
+            <Button
+                android:text="@string/addcard_moveLeft"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:id="@+id/btnMoveLeft"
+                android:layout_weight="0.5"
+                android:textSize="14px" />
+            <Button
+                android:text="@string/addcard_moveRight"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:id="@+id/btnMoveRight"
+                android:layout_weight="0.5"
+                android:textSize="14px" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_margin="3px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout6">
+            <HorizontalScrollView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView1">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/llCardImages"
+                    android:weightSum="2.0">
+                    <LinearLayout
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rlNoImage"
+                        android:background="#ff555555">
+                        <ImageView
+                            android:src="@drawable/NoCardImage"
+                            android:id="@+id/ivNoImage"
+                            android:layout_width="220px"
+                            android:layout_height="165px" />
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
